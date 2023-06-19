@@ -10,7 +10,6 @@ const remove = async () => {
         await unlink(file);
     } catch {
         throw new Error('FS operation failed');
-
     }
 };
 
